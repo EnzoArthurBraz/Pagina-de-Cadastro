@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0C0CE94D;
+    font-family: 'Inter', Inter, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 110px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, .212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.lado-esquerdo{
+   background-color: #FDE3A7D7;
+   width: 50%;
+
+}
+
+.imagem-1 img{
+    width: 600px;
+    padding-right: 150px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+}
+.lado-direito{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.lado-direito input{
+    margin-top: 10px;
+    border-radius: 3px;
+    border-color: #ccc;
+    opacity: 0.5;
+}
+
+.caixa1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.caixa1 h2::after{
+    content:"";
+    background-color: #6c63ff;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.btn-entrar{
+    background-color: #6c63ff;
+    border-radius: 7px;
+    border-color: #fff;
+    color: #fff;
+    padding: 12px;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.nome{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.sobrenome{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.caixa3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.celular{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.caixa4{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.senha{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.confirmar-senha{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.caixa5{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.caixa5{
+    display: flex;
+    margin-top: 20px;
+}
+.genero{
+    display: flex;
+    align-items: center;
+}
+.feminino{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.feminino input{
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.masculino{
+    display: flex;;
+    margin-top: 10px;
+    margin-left:12px;
+    align-items: center;
+}
+
+.masculino input{
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btn-2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.btn-continuar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #6c63ff;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px 0;
+    border-color: #fff;
+    color: #fff;
+    transition: 0.9s;
+}
+
+.btn-continuar button:hover{
+
+}
